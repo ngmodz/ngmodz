@@ -12,10 +12,14 @@ I’m a passionate Data Science enthusiast from Delhi with hands-on skills in Ja
 ---
 
 ## 🔗 Connect with Me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nishant-k-6b164234b/){:target="_blank" rel="noopener noreferrer"}  
+
+<a href="https://www.linkedin.com/in/nishant-k-6b164234b/" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>  
 ✉️ [nishantgrewal2005@gmail.com](mailto:nishantgrewal2005@gmail.com)
 
 ---
+
 
 ## 🛠️ Tech Stack
 <p>
