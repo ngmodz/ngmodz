@@ -1,5 +1,4 @@
 <div align="center">
-  <img src="https://github.com/ngmodz.png" alt="Nishant Kumar" width="150" style="border-radius:50%;" />
   <h1>Hi, I’m Nishant Kumar 👋</h1>
   <p>🚀 Aspiring Data Scientist | ML &amp; Deep Learning Enthusiast | BCA (AI &amp; DS), Delhi</p>
 </div>
