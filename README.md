@@ -36,6 +36,13 @@ I’m a passionate Data Science enthusiast from Delhi with hands-on skills in Ja
 
 ## 📊 GitHub Stats
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ngmodz&theme=dark&show_icons=true&count_private=true" alt="Nishant’s GitHub Stats"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ngmodz&theme=dark" alt="GitHub Streak"/>
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=ngmodz&theme=dark&show_icons=true&count_private=true"
+    alt="Nishant Kumar's GitHub Stats"
+  />
+  <img
+    src="https://github-readme-streak-stats.herokuapp.com?user=ngmodz&theme=dark&hide_border=true"
+    alt="GitHub Streak"
+  />
 </p>
+
