@@ -45,7 +45,7 @@ I’m a passionate Data Science enthusiast from Delhi with hands-on skills in Ja
     alt="Nishant Kumar's GitHub Stats"
   />
   <img
-    src="https://streak-stats.demolab.com?user=ngmodz&theme=dark&hide_border=true"
+    src="https://github-readme-streak-stats.herokuapp.com/?user=ngmodz&theme=dark&hide_border=true"
     alt="GitHub Streak"
   />
 </p>
