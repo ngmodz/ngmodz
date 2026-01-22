@@ -1,0 +1,36 @@
+name: Update GitHub streak card
+
+on:
+  schedule:
+    - cron: "23 2 * * *" # daily
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-streak:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Fetch streak SVG
+        run: |
+          mkdir -p assets
+          curl -L --fail --retry 6 --retry-delay 5 --retry-all-errors \
+            -o assets/github-streak.svg \
+            "https://streak-stats.demolab.com/?user=ngmodz&theme=dark&hide_border=true"
+
+      - name: Commit if changed
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No changes"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/github-streak.svg
+          git commit -m "chore: update streak card"
+          git push
